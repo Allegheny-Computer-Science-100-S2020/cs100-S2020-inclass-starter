@@ -1,0 +1,48 @@
+---
+name: cs100-S2020-inclass
+break: true
+indent: 4
+---
+
+# Learn more about GatorGrader and its supported checks by visiting this web site:
+# https://github.com/GatorEducator/gatorgrader
+
+# Explanation:
+# --> a check without an "--exact" runs a count for an entity as an "at least"
+# --> checks below a file in a specified directory are for that specific file and directory
+# --> checks that appear stand-alone are for an entire Git repository
+
+# --> check the source code for various characteristics
+src/main:
+    java:
+        inclass/ExploreDataTypes.java:
+            ConfirmFileExists
+            CountSingleLineComments --language Java --count 2
+            CountMultipleLineComments --language Java --count 2
+            MatchFileFragment --fragment "TODO" --count 0 --exact
+            MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
+            MatchFileFragment --fragment "import java.util.Date" --count 1 --exact
+            MatchFileFragment --fragment "new Date()" --count 1 --exact
+            MatchFileFragment --fragment "System.out.println(" --count 4 --exact
+
+# --> check the source code for various characteristics
+src/main:
+    java:
+        inclass/ComputeGasMileage.java:
+            ConfirmFileExists
+            CountSingleLineComments --language Java --count 4
+            CountMultipleLineComments --language Java --count 2
+            MatchFileFragment --fragment "TODO" --count 0 --exact
+            MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
+            MatchFileFragment --fragment "System.out.println(" --count 1 --exact
+            MatchFileFragment --fragment "System.out.print(" --count 2 --exact
+            MatchFileFragment --fragment "nextInt" --count 1 --exact
+            MatchFileFragment --fragment "nextDouble" --count 1 --exact
+
+# --> check that each program builds and runs without error and
+# produces exactly the specified number of lines of output
+# Note that many programs cannot be run through Gradle in Travis CI due to
+# the fact that they interactively accept inputs from the user
+ExecuteCommand --command "gradle build"
+ExecuteCommand --command "gradle -q --console plain runExploreDataTypes"
+CountCommandOutput --command "gradle -q --console plain runExploreDataTypes" --count 4 --exact
