@@ -218,7 +218,6 @@ assesses:
 
 - The command `gradle build` executes correctly
 - The command `gradle -q --console plain runExploreDataTypes` executes correctly
-- The command `gradle -q --console plain runPerformStringMutation` executes correctly
 - The command output has exactly 4 lines
 - The ComputeGasMileage.java in src/main/java/inclass has at least 2 multiple-line Java comment(s)
 - The ComputeGasMileage.java in src/main/java/inclass has at least 4 single-line Java comment(s)
@@ -237,9 +236,6 @@ assesses:
 - The ExploreDataTypes.java in src/main/java/inclass has exactly 4 of the `System.out.println(` fragment
 - The file ComputeGasMileage.java exists in the src/main/java/inclass directory
 - The file ExploreDataTypes.java exists in the src/main/java/inclass directory
-- The file PerformStringMutation.java exists in the src/main/java/inclass directory
-- The PerformStringMutation.java in src/main/java/inclass has exactly 0 of the `Add Your Name Here` fragment
-- The PerformStringMutation.java in src/main/java/inclass has exactly 0 of the `TODO` fragment
 
 ## Downloading Project Updates
 
