@@ -161,6 +161,7 @@ type:
 
 - `gradle runExploreDataTypes`: Run the `ExploreDataTypes` program
 - `gradle -q --console plain runComputeGasMileage`: Run the `inclass.ComputeGasMileage` program
+- `gradle runPerformStringMutation`: Run the `PerformStringMutation` program
 
 ## Expected Program Output
 
@@ -187,6 +188,25 @@ Weight: 122.5
 Enter the number of miles: 50
 Enter the gallons of fuel used: 245
 Miles per gallon: 0.20408163265306123
+```
+
+- `gradle runPerformStringMutation`:
+
+```
+> Configure project :
+Configured GatorGradle 0.4.4
+
+> Task :runPerformStringMutation
+Original string: "Change is inevitable"
+Length of string: 20
+Mutation #1: Change is inevitable, except from vending machines.
+Mutation #2: CHANGE IS INEVITABLE, EXCEPT FROM VENDING MACHINES.
+Mutation #3: CHANGX IS INXVITABLX, XXCXPT FROM VXNDING MACHINXS.
+Mutation #4: NGX IS INXVITABLX, XXCXPT F
+Mutated length: 27
+
+BUILD SUCCESSFUL in 894ms
+2 actionable tasks: 1 executed, 1 up-to-date
 ```
 
 ## Automated Checks with GatorGrader
