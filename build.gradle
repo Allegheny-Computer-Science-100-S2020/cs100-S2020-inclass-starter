@@ -60,6 +60,14 @@ task(runComputeGasMileage, dependsOn: 'classes', type: JavaExec) {
     standardInput = System.in
 }
 
+// run: runPerformStringMutation
+task(runPerformStringMutation, dependsOn: 'classes', type: JavaExec) {
+    description = 'Run the inclass.PerformStringMutation program'
+    main = 'inclass.PerformStringMutation'
+    classpath = sourceSets.main.runtimeClasspath
+    standardInput = System.in
+}
+
 // perform checkstyle checking with the "gradle check" command
 apply plugin: 'checkstyle'
 checkstyle.toolVersion = '8.1'
