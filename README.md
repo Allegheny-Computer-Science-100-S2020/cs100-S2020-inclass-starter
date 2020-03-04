@@ -162,12 +162,15 @@ type:
 - `gradle runExploreDataTypes`: Run the `ExploreDataTypes` program
 - `gradle -q --console plain runComputeGasMileage`: Run the `inclass.ComputeGasMileage` program
 - `gradle runPerformStringMutation`: Run the `PerformStringMutation` program
+- `gradle -q --console plain runCompareInputValues` to run the `inclass.CompareInputValues` program
+- `gradle -q --console plain runComputeAverage` to run the `inclass.ComputeAverage` program
 
 ## Expected Program Output
 
 As you complete the in-class programming assignments, you will see that they
 each produce different output. The following list shows the output from running
-some of the programs that you complete during class activities.
+some of the programs that you complete during class activities. Please note that
+some of the programs require user input and thus their output is not given here.
 
 - `gradle runExploreDataTypes`:
 
@@ -218,7 +221,12 @@ assesses:
 
 - The command `gradle build` executes correctly
 - The command `gradle -q --console plain runExploreDataTypes` executes correctly
+- The command `gradle -q --console plain runPerformStringMutation` executes correctly
 - The command output has exactly 4 lines
+- The CompareInputValues.java in src/main/java/inclass has exactly 0 of the `Add Your Name Here` fragment
+- The CompareInputValues.java in src/main/java/inclass has exactly 0 of the `TODO` fragment
+- The ComputeAverage.java in src/main/java/inclass has exactly 0 of the `Add Your Name Here` fragment
+- The ComputeAverage.java in src/main/java/inclass has exactly 0 of the `TODO` fragment
 - The ComputeGasMileage.java in src/main/java/inclass has at least 2 multiple-line Java comment(s)
 - The ComputeGasMileage.java in src/main/java/inclass has at least 4 single-line Java comment(s)
 - The ComputeGasMileage.java in src/main/java/inclass has exactly 0 of the `Add Your Name Here` fragment
@@ -234,8 +242,13 @@ assesses:
 - The ExploreDataTypes.java in src/main/java/inclass has exactly 1 of the `import java.util.Date` fragment
 - The ExploreDataTypes.java in src/main/java/inclass has exactly 1 of the `new Date()` fragment
 - The ExploreDataTypes.java in src/main/java/inclass has exactly 4 of the `System.out.println(` fragment
+- The file CompareInputValues.java exists in the src/main/java/inclass directory
+- The file ComputeAverage.java exists in the src/main/java/inclass directory
 - The file ComputeGasMileage.java exists in the src/main/java/inclass directory
 - The file ExploreDataTypes.java exists in the src/main/java/inclass directory
+- The file PerformStringMutation.java exists in the src/main/java/inclass directory
+- The PerformStringMutation.java in src/main/java/inclass has exactly 0 of the `Add Your Name Here` fragment
+- The PerformStringMutation.java in src/main/java/inclass has exactly 0 of the `TODO` fragment
 
 ## Downloading Project Updates
 
