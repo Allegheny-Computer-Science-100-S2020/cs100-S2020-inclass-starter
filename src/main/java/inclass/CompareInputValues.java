@@ -18,7 +18,7 @@ public class CompareInputValues {
    * This program should read in two values and then compare them,
    * ultimately printing whether or not they are equal to each other.
    * Read the documentation in the README to learn about this program.
-   * From your "home base", you can run this program with:
+   * TODO: From your "home base", you can run this program with:
    * gradle -q --console plain runCompareInputValues
    */
   public static void main(String[] args) {
