@@ -159,11 +159,13 @@ There are separate Gradle commands that you must type for each of the individual
 in-class programs that you will want to run. Here is the list of commands to
 type:
 
-- `gradle runExploreDataTypes`: Run the `ExploreDataTypes` program
+- `gradle runExploreDataTypes`: Run the `inclass.ExploreDataTypes` program
 - `gradle -q --console plain runComputeGasMileage`: Run the `inclass.ComputeGasMileage` program
-- `gradle runPerformStringMutation`: Run the `PerformStringMutation` program
+- `gradle runPerformStringMutation`: Run the `inclass.PerformStringMutation` program
 - `gradle -q --console plain runCompareInputValues` to run the `inclass.CompareInputValues` program
 - `gradle -q --console plain runComputeAverage` to run the `inclass.ComputeAverage` program
+- `gradle -q --console plain runComputeMultiples` to run the `inclass.ComputeMultiples` program
+- `gradle runDisplayStars`: Run the `inclass.DisplayStars` program
 
 ## Expected Program Output
 
