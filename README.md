@@ -236,7 +236,6 @@ BUILD SUCCESSFUL in 838ms
 2 actionable tasks: 1 executed, 1 up-to-date
 ```
 
-
 ## Automated Checks with GatorGrader
 
 All of the source code and technical writing in your repository must pass the
@@ -245,8 +244,10 @@ following checks that
 assesses:
 
 - The command `gradle build` executes correctly
+- The command `gradle -q --console plain runDisplayStars` executes correctly
 - The command `gradle -q --console plain runExploreDataTypes` executes correctly
 - The command `gradle -q --console plain runPerformStringMutation` executes correctly
+- The command output has exactly 10 lines
 - The command output has exactly 4 lines
 - The CompareInputValues.java in src/main/java/inclass has exactly 0 of the `Add Your Name Here` fragment
 - The CompareInputValues.java in src/main/java/inclass has exactly 0 of the `TODO` fragment
@@ -260,6 +261,14 @@ assesses:
 - The ComputeGasMileage.java in src/main/java/inclass has exactly 1 of the `nextInt` fragment
 - The ComputeGasMileage.java in src/main/java/inclass has exactly 1 of the `System.out.println(` fragment
 - The ComputeGasMileage.java in src/main/java/inclass has exactly 2 of the `System.out.print(` fragment
+- The ComputeMultiples.java in src/main/java/inclass has at least 20 single-line Java comment(s)
+- The ComputeMultiples.java in src/main/java/inclass has at least 3 multiple-line Java comment(s)
+- The ComputeMultiples.java in src/main/java/inclass has exactly 0 of the `Add Your Name Here` fragment
+- The ComputeMultiples.java in src/main/java/inclass has exactly 0 of the `TODO` fragment
+- The DisplayStars.java in src/main/java/inclass has at least 10 single-line Java comment(s)
+- The DisplayStars.java in src/main/java/inclass has at least 2 multiple-line Java comment(s)
+- The DisplayStars.java in src/main/java/inclass has exactly 0 of the `Add Your Name Here` fragment
+- The DisplayStars.java in src/main/java/inclass has exactly 0 of the `TODO` fragment
 - The ExploreDataTypes.java in src/main/java/inclass has at least 2 multiple-line Java comment(s)
 - The ExploreDataTypes.java in src/main/java/inclass has at least 2 single-line Java comment(s)
 - The ExploreDataTypes.java in src/main/java/inclass has exactly 0 of the `Add Your Name Here` fragment
@@ -270,6 +279,8 @@ assesses:
 - The file CompareInputValues.java exists in the src/main/java/inclass directory
 - The file ComputeAverage.java exists in the src/main/java/inclass directory
 - The file ComputeGasMileage.java exists in the src/main/java/inclass directory
+- The file ComputeMultiples.java exists in the src/main/java/inclass directory
+- The file DisplayStars.java exists in the src/main/java/inclass directory
 - The file ExploreDataTypes.java exists in the src/main/java/inclass directory
 - The file PerformStringMutation.java exists in the src/main/java/inclass directory
 - The PerformStringMutation.java in src/main/java/inclass has exactly 0 of the `Add Your Name Here` fragment
