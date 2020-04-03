@@ -214,6 +214,29 @@ BUILD SUCCESSFUL in 894ms
 2 actionable tasks: 1 executed, 1 up-to-date
 ```
 
+- `gradle runDisplayStars`:
+
+```
+> Configure project :
+Configured GatorGradle 0.5.1
+
+> Task :runDisplayStars
+*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+**********
+
+BUILD SUCCESSFUL in 838ms
+2 actionable tasks: 1 executed, 1 up-to-date
+```
+
+
 ## Automated Checks with GatorGrader
 
 All of the source code and technical writing in your repository must pass the
