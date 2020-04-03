@@ -63,6 +63,26 @@ src/main:
             MatchFileFragment --fragment "TODO" --count 0 --exact
             MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
 
+# --> check the source code for various characteristics
+src/main:
+    java:
+        inclass/ComputeMultiples.java:
+            ConfirmFileExists
+            MatchFileFragment --fragment "TODO" --count 0 --exact
+            MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
+            CountSingleLineComments --language Java --count 20
+            CountMultipleLineComments --language Java --count 3
+
+# --> check the source code for various characteristics
+src/main:
+    java:
+        inclass/DisplayStars.java:
+            ConfirmFileExists
+            MatchFileFragment --fragment "TODO" --count 0 --exact
+            MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
+            CountSingleLineComments --language Java --count 10
+            CountMultipleLineComments --language Java --count 2
+
 # --> check that each program builds and runs without error and
 # produces exactly the specified number of lines of output
 # Note that many programs cannot be run through Gradle in Travis CI due to
@@ -71,3 +91,5 @@ ExecuteCommand --command "gradle build"
 ExecuteCommand --command "gradle -q --console plain runExploreDataTypes"
 CountCommandOutput --command "gradle -q --console plain runExploreDataTypes" --count 4 --exact
 ExecuteCommand --command "gradle -q --console plain runPerformStringMutation"
+ExecuteCommand --command "gradle -q --console plain runDisplayStars"
+CountCommandOutput --command "gradle -q --console plain runDisplayStars" --count 10 --exact
