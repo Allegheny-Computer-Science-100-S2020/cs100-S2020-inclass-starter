@@ -59,7 +59,7 @@ public class ComputeMultiples {
   }
 }
 
-// TODO: Provide a block of single line comments that showcases the output from
+// TODO: Provide a block of single-line comments that showcases the output from
 // running this program See page 268 in the textbook for an example of inputs
 // for running this program
 
