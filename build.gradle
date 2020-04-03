@@ -84,6 +84,22 @@ task(runComputeAverage, dependsOn: 'classes', type: JavaExec) {
     standardInput = System.in
 }
 
+// run: runComputeMultiples
+task(runComputeMultiples, dependsOn: 'classes', type: JavaExec) {
+    description = 'Run the inclass.ComputeMultiples program'
+    main = 'inclass.ComputeMultiples'
+    classpath = sourceSets.main.runtimeClasspath
+    standardInput = System.in
+}
+
+// run: runDisplayStars
+task(runDisplayStars, dependsOn: 'classes', type: JavaExec) {
+    description = 'Run the inclass.DisplayStars program'
+    main = 'inclass.DisplayStars'
+    classpath = sourceSets.main.runtimeClasspath
+    standardInput = System.in
+}
+
 // perform checkstyle checking with the "gradle check" command
 apply plugin: 'checkstyle'
 checkstyle.toolVersion = '8.1'
