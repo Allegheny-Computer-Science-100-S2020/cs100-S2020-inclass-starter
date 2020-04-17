@@ -416,14 +416,15 @@ during the course instructor's office hours.
 
 ## Project Feedback
 
-Students who wish to receive feedback on their work for this laboratory
-assignment should first open an issue on the issue tracker for this GitHub
-repository, giving an appropriate title and description for the type of feedback
-that you would like the course instructor to provide. After creating this issue,
-you will see that GitHub has created a unique web site that references this
-issue. To alert the course instructor to the fact that the issue was created and
-that you want feedback on your work, please send it to him by a Slack direct
-message at your earliest convenience, bearing in mind that the in-class
-programming projects have more informal deadlines for completion. After the
-instructor responds to the issue, please resolve all of the stated concerns and
-participate in the discussion until the issue is closed.
+Students who wish to receive feedback on their work for this in-class
+programming assignment should first open an issue on the issue tracker for this
+GitHub repository, giving an appropriate title and description for the type of
+feedback that you would like the course instructor to provide. After creating
+this issue, you will see that GitHub has created a unique web site that
+references this issue. To alert the course instructor to the fact that the
+issue was created and that you want feedback on your work, please send it to
+him by a Slack direct message at your earliest convenience, bearing in mind
+that the in-class programming projects have more informal deadlines for
+completion. After the instructor responds to the issue, please resolve all of
+the stated concerns and participate in the discussion until the issue is
+closed.
