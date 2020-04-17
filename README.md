@@ -260,11 +260,16 @@ following checks that
 [GatorGrader](https://github.com/GatorEducator/gatorgrader) automatically
 assesses:
 
+- The BasicArrayComputations.java in src/main/java/inclass has at least 15 single-line Java comment(s)
+- The BasicArrayComputations.java in src/main/java/inclass has at least 3 multiple-line Java comment(s)
+- The BasicArrayComputations.java in src/main/java/inclass has exactly 0 of the `Add Your Name Here` fragment
+- The BasicArrayComputations.java in src/main/java/inclass has exactly 0 of the `TODO` fragment
 - The command `gradle build` executes correctly
 - The command `gradle -q --console plain runDisplayStars` executes correctly
 - The command `gradle -q --console plain runExploreDataTypes` executes correctly
 - The command `gradle -q --console plain runPerformStringMutation` executes correctly
 - The command output has exactly 10 lines
+- The command output has exactly 1 lines
 - The command output has exactly 4 lines
 - The CompareInputValues.java in src/main/java/inclass has exactly 0 of the `Add Your Name Here` fragment
 - The CompareInputValues.java in src/main/java/inclass has exactly 0 of the `TODO` fragment
@@ -293,6 +298,7 @@ assesses:
 - The ExploreDataTypes.java in src/main/java/inclass has exactly 1 of the `import java.util.Date` fragment
 - The ExploreDataTypes.java in src/main/java/inclass has exactly 1 of the `new Date()` fragment
 - The ExploreDataTypes.java in src/main/java/inclass has exactly 4 of the `System.out.println(` fragment
+- The file BasicArrayComputations.java exists in the src/main/java/inclass directory
 - The file CompareInputValues.java exists in the src/main/java/inclass directory
 - The file ComputeAverage.java exists in the src/main/java/inclass directory
 - The file ComputeGasMileage.java exists in the src/main/java/inclass directory
@@ -300,8 +306,14 @@ assesses:
 - The file DisplayStars.java exists in the src/main/java/inclass directory
 - The file ExploreDataTypes.java exists in the src/main/java/inclass directory
 - The file PerformStringMutation.java exists in the src/main/java/inclass directory
+- The file ReverseNumberList.java exists in the src/main/java/inclass directory
 - The PerformStringMutation.java in src/main/java/inclass has exactly 0 of the `Add Your Name Here` fragment
 - The PerformStringMutation.java in src/main/java/inclass has exactly 0 of the `TODO` fragment
+- The ReverseNumberList.java in src/main/java/inclass has at least 12 single-line Java comment(s)
+- The ReverseNumberList.java in src/main/java/inclass has at least 2 multiple-line Java comment(s)
+- The ReverseNumberList.java in src/main/java/inclass has exactly 0 of the `Add Your Name Here` fragment
+- The ReverseNumberList.java in src/main/java/inclass has exactly 0 of the `TODO` fragment
+
 
 ## Downloading Project Updates
 
