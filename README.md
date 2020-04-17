@@ -314,7 +314,6 @@ assesses:
 - The ReverseNumberList.java in src/main/java/inclass has exactly 0 of the `Add Your Name Here` fragment
 - The ReverseNumberList.java in src/main/java/inclass has exactly 0 of the `TODO` fragment
 
-
 ## Downloading Project Updates
 
 If GatorGrader's maintainers push updates to this sample assignment and you
