@@ -44,7 +44,7 @@ public class BasicArrayComputations {
 
 }
 
-// TODO: This is the output from running this program:
+// TODO: Provide the output from running this program:
 
 // What is the purpose of the LIMIT variable?
 //
