@@ -238,6 +238,21 @@ BUILD SUCCESSFUL in 838ms
 2 actionable tasks: 1 executed, 1 up-to-date
 ```
 
+- `gradle runBasicArrayComputations`
+
+```
+> Task :runBasicArrayComputations
+0  10  20  30  40  999  60  70  80  90  100  110  120  130  140
+
+BUILD SUCCESSFUL in 1s
+2 actionable tasks: 1 executed, 1 up-to-date
+```
+
+- `gradle runCompareInputValues` will produce different output depending on your input
+- `gradle runComputeAverage` will produce different output depending on your input
+- `gradle runComputeMultiples` will produce different output depending on your input
+- `gradle runReverseNumberList` will produce different output depending on your input
+
 ## Automated Checks with GatorGrader
 
 All of the source code and technical writing in your repository must pass the
