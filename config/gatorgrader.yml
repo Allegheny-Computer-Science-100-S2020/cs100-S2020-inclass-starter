@@ -113,3 +113,4 @@ CountCommandOutput --command "gradle -q --console plain runExploreDataTypes" --c
 ExecuteCommand --command "gradle -q --console plain runPerformStringMutation"
 ExecuteCommand --command "gradle -q --console plain runDisplayStars"
 CountCommandOutput --command "gradle -q --console plain runDisplayStars" --count 10 --exact
+CountCommandOutput --command "gradle -q --console plain runBasicArrayComputations" --count 1 --exact
