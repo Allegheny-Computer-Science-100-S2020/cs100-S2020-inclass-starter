@@ -166,6 +166,8 @@ type:
 - `gradle -q --console plain runComputeAverage` to run the `inclass.ComputeAverage` program
 - `gradle -q --console plain runComputeMultiples` to run the `inclass.ComputeMultiples` program
 - `gradle runDisplayStars`: Run the `inclass.DisplayStars` program
+- `gradle runBasicArrayComputations`: Run the `inclass.BasicArrayComputations` program
+- `gradle -q --console plain runReverseNumberList`: Run the `inclass.ReverseNumberList` program
 
 ## Expected Program Output
 
