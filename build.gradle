@@ -100,6 +100,22 @@ task(runDisplayStars, dependsOn: 'classes', type: JavaExec) {
     standardInput = System.in
 }
 
+// run: runBasicArrayComputations
+task(runBasicArrayComputations, dependsOn: 'classes', type: JavaExec) {
+    description = 'Run the inclass.BasicArrayComputations program'
+    main = 'inclass.BasicArrayComputations'
+    classpath = sourceSets.main.runtimeClasspath
+    standardInput = System.in
+}
+
+// run: runReverseNumberList
+task(runReverseNumberList, dependsOn: 'classes', type: JavaExec) {
+    description = 'Run the inclass.ReverseNumberList program'
+    main = 'inclass.ReverseNumberList'
+    classpath = sourceSets.main.runtimeClasspath
+    standardInput = System.in
+}
+
 // perform checkstyle checking with the "gradle check" command
 apply plugin: 'checkstyle'
 checkstyle.toolVersion = '8.1'
